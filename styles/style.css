@@ -1,0 +1,170 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: lemonchiffon;
+}
+
+header{
+    background-color: blue;
+    color: #FFFFFF;
+    height: 677px;
+
+}
+.header-section{
+    margin-left: 156px;
+    margin-right: 141px;
+    margin-bottom:  86px; 
+    /* margin-top: ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title{
+    font-size: 64px;
+}
+
+.watch-button {
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.watch-button span{
+    height: 24px;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-thumbnail img{
+    width: 556.01px;
+    height: 438px;
+}
+
+/* main style */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.players-section{
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.player{
+    border-radius: 5px;
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 15px 15px 33px 15px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.player:hover{
+    transform: rotate(180deg);
+    transition: width 5s ease-in-out, height 10s, transform 10s;
+}
+
+.player-thumbnail{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.player-name{
+    font-size: 28px;
+}
+
+.player-details{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+/* highlights section */
+
+.highlights{
+    margin-left: 180px;
+    margin-right: 156px;
+    margin-top: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.highlights-discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.highlights-discription h2{
+    width: 466px;
+    /* height: 309px; */
+    font-size: 48px;
+    color: #0A0826;
+    margin: 0;
+
+}
+.highlights-discription p{
+    font-size: 16px;
+    color:#6C6C6C;
+}
+
+iframe{
+    width: 567px;
+    height: 427px;
+}
+
+/* footer  */
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifa-icon, .social-media, .copyright{
+    display: flex;
+    justify-content: space-between;;
+    align-items: center;
+
+
+}
+.fa-futbol{
+    font-size: 73px;
+    color: #10437A;
+    padding-right: 20px;
+}
+
+footer .fifa-icon .fifa-logo{
+    font-family: 'Niconne', cursive;
+    font-size: 73px;
+    color: #10437A
+}
+
+.social-media{
+    color:#969BAB;
+    width: 170px;
+    height: 32px;
+}
+footer .copyright{
+    font-size: 18px;
+    margin-top: 20px;
+}
